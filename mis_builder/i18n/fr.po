@@ -22,6 +22,8 @@ msgstr ""
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:529
 #: code:addons/mis_builder/models/mis_report_instance.py:581
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:529
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:581
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copie)"
@@ -174,6 +176,7 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:391
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:391
 #, python-format
 msgid "A date filter is mandatory for this source in column %s."
 msgstr "Un filtre date est obligatoire pour cette source dans la colonne %s."
@@ -192,6 +195,7 @@ msgstr "Méthode d'accumulation"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:303
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:303
 #, python-format
 msgid ""
 "Actual (alternative) models used in columns must have the same account model "
@@ -276,6 +280,7 @@ msgstr "Compte analytique"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/js/mis_report_widget.js:48
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/js/mis_report_widget.js:48
 #, fuzzy, python-format
 #| msgid "Analytic Account"
 msgid "Analytic Account Filter"
@@ -283,6 +288,7 @@ msgstr "Compte analytique"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:545
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:545
 #, python-format
 msgid "Analytic Account: %s"
 msgstr "Compte analytique:%s"
@@ -297,6 +303,7 @@ msgstr "Compte analytique"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/js/mis_report_widget.js:52
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/js/mis_report_widget.js:52
 #, fuzzy, python-format
 #| msgid "Hide analytic filters"
 msgid "Analytic Tags Filter"
@@ -304,6 +311,7 @@ msgstr "Cacher les filtres analytiques"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:553
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:553
 #, fuzzy, python-format
 #| msgid "Analytic Account: %s"
 msgid "Analytic Tags: %s"
@@ -317,6 +325,8 @@ msgstr "Expansion automatique"
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:130
 #: code:addons/mis_builder/models/mis_report.py:402
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:130
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:402
 #: selection:mis.report.kpi,accumulation_method:0
 #: selection:mis.report.query,aggregate:0
 #, python-format
@@ -350,6 +360,7 @@ msgstr "Gras"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:196
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:196
 #, python-format
 msgid "Can not update a multi kpi from the kpi line"
 msgstr "Vous ne pouvez pas mettre à jour un kpi multi depuis la ligne de kpi"
@@ -385,6 +396,7 @@ msgstr "Colonne"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:411
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:411
 #, fuzzy, python-format
 msgid "Column %s cannot be compared to itrec."
 msgstr "Colonne %s ne peut pas être comparée à elle-même."
@@ -392,6 +404,8 @@ msgstr "Colonne %s ne peut pas être comparée à elle-même."
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:701
 #: code:addons/mis_builder/models/mis_report_instance.py:723
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:701
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:723
 #, python-format
 msgid "Column %s with actuals source must have from/to dates."
 msgstr "Colonne %s avec une source pour le réel doit avoir des dates de/à."
@@ -403,6 +417,7 @@ msgstr "Colonnes"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:420
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:420
 #, python-format
 msgid "Columns to compare must belong to the same report in %s"
 msgstr "Les colonnes à comparer doivent appartenir au même rapport %s"
@@ -414,6 +429,7 @@ msgstr "Colonnes à additionner"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/kpimatrix.py:318
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/kpimatrix.py:318
 #, python-format
 msgid "Columns {} and {} are not comparable"
 msgstr "Les colonnes {} et {} ne sont pas comparables"
@@ -493,6 +509,7 @@ msgstr "Tableau de bord"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:193
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:193
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance_date_range_id
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance_period_date_range_id
 #: selection:mis.report.instance.period,type:0
@@ -517,6 +534,7 @@ msgstr "Dates"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:189
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:189
 #: selection:mis.report.instance.period,type:0
 #, python-format
 msgid "Day"
@@ -548,6 +566,7 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:121
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:121
 #: selection:mis.report.kpi,compare_method:0
 #, python-format
 msgid "Difference"
@@ -623,6 +642,7 @@ msgstr "Exemples :"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/xml/mis_report_widget.xml:12
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/xml/mis_report_widget.xml:12
 #: model:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_form
 #: model:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_tree
 #: model:ir.ui.view,arch_db:mis_builder.wizard_mis_report_instance_view_form
@@ -753,6 +773,7 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/report/mis_report_instance_xlsx.py:167
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/report/mis_report_instance_xlsx.py:167
 #, python-format
 msgid "Generated on {} at {}"
 msgstr ""
@@ -804,6 +825,7 @@ msgstr "ID"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/aep.py:102
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/aep.py:102
 #, python-format
 msgid ""
 "If currency_id is not provided, all companies must have the same currency."
@@ -828,6 +850,7 @@ msgstr "Niveau de retrait par défaut"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_style.py:60
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_style.py:60
 #, python-format
 msgid "Indent level must be greater than or equal to 0"
 msgstr "Le niveau de retrait doit être plus grand ou égal à 0"
@@ -844,6 +867,7 @@ msgstr "KPI"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:726
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:726
 #, python-format
 msgid ""
 "KPI \"{}\" has type {} while a tuple was expected.\n"
@@ -857,6 +881,7 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:716
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:716
 #, python-format
 msgid ""
 "KPI \"{}\" is valued as a tuple of length {} while a tuple of length {} is "
@@ -1068,6 +1093,7 @@ msgstr "Instance MIS report XLS report"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:404
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:404
 #: selection:mis.report.query,aggregate:0
 #, python-format
 msgid "Max"
@@ -1075,6 +1101,7 @@ msgstr "Max"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:403
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:403
 #: selection:mis.report.query,aggregate:0
 #, python-format
 msgid "Min"
@@ -1092,6 +1119,7 @@ msgstr "Modèle"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:191
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:191
 #: selection:mis.report.instance.period,type:0
 #, python-format
 msgid "Month"
@@ -1141,6 +1169,7 @@ msgstr "Pas de filtre date"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:397
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:397
 #, python-format
 msgid "No date filter is allowed for this source in column %s."
 msgstr "Aucun filtre date n'est autorisé pour cette source dans la colonne %s."
@@ -1148,6 +1177,8 @@ msgstr "Aucun filtre date n'est autorisé pour cette source dans la colonne %s."
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:123
 #: code:addons/mis_builder/models/mis_report.py:130
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:123
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:130
 #: selection:mis.report.kpi,accumulation_method:0
 #: selection:mis.report.kpi,compare_method:0
 #, python-format
@@ -1172,6 +1203,7 @@ msgstr "Nombre de périodes"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:111
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:111
 #: selection:mis.report.kpi,type:0
 #, python-format
 msgid "Numeric"
@@ -1195,6 +1227,8 @@ msgstr "Colonne parent"
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:112
 #: code:addons/mis_builder/models/mis_report.py:122
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:112
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:122
 #: selection:mis.report.kpi,compare_method:0 selection:mis.report.kpi,type:0
 #, python-format
 msgid "Percentage"
@@ -1222,6 +1256,7 @@ msgstr "Date pivot"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:407
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:407
 #, python-format
 msgid "Please provide both columns to compare in %s."
 msgstr "Merci de renseigner les 2 colonnes à comparer en %s."
@@ -1246,6 +1281,7 @@ msgstr "Prévisualisation"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/xml/mis_report_widget.xml:11
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/xml/mis_report_widget.xml:11
 #: model:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_form
 #: model:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_tree
 #: model:ir.ui.view,arch_db:mis_builder.wizard_mis_report_instance_view_form
@@ -1267,6 +1303,7 @@ msgstr "Ids des sociétés de la requête"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/xml/mis_report_widget.xml:10
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/xml/mis_report_widget.xml:10
 #, python-format
 msgid "Refresh"
 msgstr "Rafraîchir"
@@ -1343,6 +1380,7 @@ msgstr "Séquence"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/xml/mis_report_widget.xml:13
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/xml/mis_report_widget.xml:13
 #, python-format
 msgid "Settings"
 msgstr "Paramètres"
@@ -1360,6 +1398,7 @@ msgstr "Source"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:113
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:113
 #: selection:mis.report.kpi,type:0
 #, python-format
 msgid "String"
@@ -1433,6 +1472,8 @@ msgstr "Suffixe par défaut"
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report.py:130
 #: code:addons/mis_builder/models/mis_report.py:401
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:130
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:401
 #: selection:mis.report.kpi,accumulation_method:0
 #: selection:mis.report.query,aggregate:0
 #, python-format
@@ -1446,6 +1487,7 @@ msgstr "Additionne le détail des comptes"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/kpimatrix.py:399
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/kpimatrix.py:399
 #, python-format
 msgid ""
 "Sum cannot be computed in column {} because the columns to sum have no "
@@ -1525,6 +1567,9 @@ msgstr ""
 #: code:addons/mis_builder/models/mis_report.py:166
 #: code:addons/mis_builder/models/mis_report.py:280
 #: code:addons/mis_builder/models/mis_report.py:425
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:166
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:280
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report.py:425
 #, python-format
 msgid "The name must be a valid python identifier"
 msgstr "Le nom doit être un identifiant python valide"
@@ -1532,6 +1577,7 @@ msgstr "Le nom doit être un identifiant python valide"
 #. module: mis_builder
 #. openerp-web
 #: code:addons/mis_builder/static/src/js/mis_report_widget.js:253
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/static/src/js/mis_report_widget.js:253
 #, python-format
 msgid ""
 "This filter returns the journal entries that have all the selected tags."
@@ -1552,6 +1598,7 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_kpi_data.py:98
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_kpi_data.py:98
 #, python-format
 msgid "Unexpected accumulation method %s for %s."
 msgstr "Méthode d'accumulation inattendue %s pour %s."
@@ -1573,6 +1620,7 @@ msgstr "Visibilité"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:190
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:190
 #: selection:mis.report.instance.period,type:0
 #, python-format
 msgid "Week"
@@ -1590,6 +1638,7 @@ msgstr "Facteur de normalisation incorrect, il doit être positif !"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:192
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:192
 #: selection:mis.report.instance.period,type:0
 #, python-format
 msgid "Year"
@@ -1602,12 +1651,14 @@ msgstr ""
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:60
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:60
 #, python-format
 msgid "You cannot sum period %s with itself."
 msgstr "Vous ne pouvez pas additionner la période %s avec elle-meme."
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:792
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_instance.py:792
 #, python-format
 msgid "from %s to %s"
 msgstr "de %s à %s"
@@ -1630,6 +1681,7 @@ msgstr "ou"
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_style.py:240
+#: code:addons/setup/mis_builder/odoo/addons/mis_builder/models/mis_report_style.py:240
 #, python-format
 msgid "pp"
 msgstr "pp"
