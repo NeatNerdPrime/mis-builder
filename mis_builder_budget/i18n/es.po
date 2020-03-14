@@ -18,24 +18,28 @@ msgstr ""
 
 #. module: mis_builder_budget
 #: code:addons/mis_builder_budget/models/mis_budget.py:44
+#: code:addons/setup/mis_builder_budget/odoo/addons/mis_builder_budget/models/mis_budget.py:44
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copia)"
 
 #. module: mis_builder_budget
 #: code:addons/mis_builder_budget/models/mis_budget_item.py:92
+#: code:addons/setup/mis_builder_budget/odoo/addons/mis_builder_budget/models/mis_budget_item.py:92
 #, python-format
 msgid "%s is not within budget %s date range."
 msgstr "%s no está dentro del rango de fechas del presupuesto %s."
 
 #. module: mis_builder_budget
 #: code:addons/mis_builder_budget/models/mis_budget_item.py:100
+#: code:addons/setup/mis_builder_budget/odoo/addons/mis_builder_budget/models/mis_budget_item.py:100
 #, python-format
 msgid "%s overlaps %s in budget %s"
 msgstr "%s superpone %s en el presupuesto %s"
 
 #. module: mis_builder_budget
 #: code:addons/mis_builder_budget/models/mis_budget_item.py:87
+#: code:addons/setup/mis_builder_budget/odoo/addons/mis_builder_budget/models/mis_budget_item.py:87
 #, python-format
 msgid "%s start date must not be after end date"
 msgstr "La fecha de inicio de %s no puede ser posterior a la fecha de fin"
